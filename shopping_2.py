@@ -9,6 +9,6 @@ for shop, products in shopping_dict.items():   	# produkty z jednego sklepu
         produkty.append(p.title()) 		# dodaj produkty z pierwszą dużą literą	    
     produkty = ", ".join(produkty)		#metoda join ciąg znaków przecinek, produkt
     print(f'Idę do {shop.title()}, kupuję tu następujące rzeczy: {produkty}')
-
+print ('zmiana 2 do sprawdzenia')
 
    

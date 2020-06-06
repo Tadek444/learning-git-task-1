@@ -13,5 +13,5 @@ ile = 0					                        # zerujemy pętlę for na początku
 for products in shopping_dict.values():         # wyciągamy produkty z produktów słownika shopping_dict 
     ile += len(products)	                    # zliczamy ilość wystapień produktów
 print(f'W sumie kupuję {ile}, produktów')       # drukujemy ilość produktów
-
+print ('zmiana 3 do sprawdzenia')
    
